@@ -1,6 +1,8 @@
 import express from "express";
 import fs from "fs"
 import zlib, { createGzip } from "zlib";
+import dotenv from "dotenv"
+dotenv.config()
 
 const app=express()
 
